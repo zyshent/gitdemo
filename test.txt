@@ -29,3 +29,9 @@ git branch -D 分支
 将本地分支删除
 git push origin --delete 分支
 将远程分支删除
+git switch -c one
+创建并切换到one
+git tag v1.0
+打标签
+git push origin v1.0
+将标签推送到远程
