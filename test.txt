@@ -1,0 +1,25 @@
+hello 问问
+
+
+git diff 文件
+查看文件修改的内容
+git log
+查看提交的历史记录
+git log --pretty=oneline
+查看提交的历史纪录 （简易版）
+cat 文件
+查看文件的内容
+git rm 
+同时从工作区和索引中删除文件
+git rm --cached
+从索引中删除文件。但是本地的文件还在，只是不希望这个文件被版本控制
+git push origin 分支
+将本地分支推送到远程
+git branch 分支
+在本地创建分支
+git checkout 分支
+在本地切换分支
+git checkout -b 分支
+在本地创建并切换分支
+git push -u origin one
+将本地分支one 推送到远程
