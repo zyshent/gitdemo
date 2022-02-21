@@ -23,5 +23,9 @@ git checkout -b 分支
 在本地创建并切换分支
 git push -u origin one
 将本地分支one 推送到远程
-git marge 分支
+git merge 分支
 将分支合并到当前分支
+git branch -D 分支
+将本地分支删除
+git push origin --delete 分支
+将远程分支删除
